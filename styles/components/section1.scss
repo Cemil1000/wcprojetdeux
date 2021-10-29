@@ -1,0 +1,60 @@
+#section1{
+    background: #F7F7F7;
+    .container-Perso{
+        display: flex;
+        justify-content: center;
+        .titre{
+            width: 40%;
+            padding: 0 15px;
+            h2{
+                position: relative;
+                font-size: 2rem;
+                &::before{
+                    position: absolute;
+                    box-sizing: border-box;
+                    left: -50px;
+                    top: 18px;
+                    content: '';
+                    display: inline-block;
+                    width: 44px;
+                    height: 3px;
+                    background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+                }
+            }
+        }
+        .text{
+            color: #9A9A9A;
+            width: 60%;
+            padding: 0 15px;
+            .padding{
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 765px) {
+    #section1{
+        .container-Perso{
+            display: block;
+            max-width: 540px;
+            text-align: justify;
+            .titre{
+                width: 100%;
+                h2{
+                    padding-bottom: 10px;
+                }
+            }
+            .text{
+                width: 100%;
+            }
+        }
+    }
+}
+
+// Demander à Hani si il a le temps parceque c'est un mec occupé
+@media screen and (max-width: 1230px) {
+    #section1 .container-Perso .titre h2::before{
+        display: none;
+    }
+}

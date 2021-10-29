@@ -1,0 +1,133 @@
+#section2 {
+  .cards-Section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+    .card-Section2 {
+      width: 33%;
+      min-width: 250px;
+      padding: 30px 35px;
+      p {
+        text-align: center;
+        color: #777777;
+      }
+      h3 {
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 8px;
+      }
+      .icon-Section2 {
+        margin: auto;
+        color: #f0326b;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .about {
+    padding: 70px 0;
+    h2 {
+      font-size: 40px;
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    p {
+      font-family: "Titillium Web", sans-serif;
+      color: #9a9a9a;
+      line-height: 1.6;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    img {
+      width: 100%;
+      box-shadow: 0px 0px 5px 0px;
+      border-radius: 0.25rem;
+      vertical-align: middle;
+    }
+
+    .creativity {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+      .imgCreativity {
+        padding: 0 15px;
+        margin-left: 95px;
+      }
+      .textCreativity {
+        padding: 0 15px;
+        .containCreativity {
+          padding: 50px 0;
+          width: 445px;
+        }
+      }
+    }
+
+    .box {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 15px;
+      margin-top: 50px;
+      .aboutSpace {
+        margin-bottom: 6vh;
+      }
+      .imgBox {
+        padding: 0 15px;
+      }
+      .textBox {
+        padding: 0 15px;
+        margin: 0 0 0 95px;
+        .containBox {
+          padding: 50px 0px;
+          max-width: 445px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #section2 .cards-Section2 .card-Section2 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1097px) {
+  #section2 .about {
+    .creativity .imgCreativity {
+      margin: 0;
+    }
+    .box .textBox {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 981px) {
+  #section2 .about {
+    max-width: 540px;
+    .creativity {
+      justify-content: center;
+      padding: 0;
+      .imgCreativity {
+        width: 100%;
+      }
+      .textCreativity .containCreativity {
+        width: 100%;
+      }
+    }
+    .box {
+      justify-content: center;
+      padding: 0;
+      .imgBox {
+        width: 100%;
+      }
+      .textBox .containBox {
+        width: 100%;
+      }
+    }
+  }
+}

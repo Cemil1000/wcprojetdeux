@@ -1,0 +1,32 @@
+#section13{
+    padding: 100px 0;
+    background: url("../../public/img/call-to-action/call-to-action-bg-2.jpg");
+    background-size: cover;
+    div{
+        text-align: center;
+        color: #fff;
+        h3{
+            font-size: 30px;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        p{
+            margin-bottom: 36px;
+        }
+        a {
+            background-color: #21d6bf;
+            background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+            color: #fff;
+            display: inline-block;
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding: 10px 40px;
+            text-transform: uppercase;
+            border: 1px solid transparent;
+            border-radius: 2px;
+            &:hover{
+                background-image: none;
+            }
+        }
+    }
+}

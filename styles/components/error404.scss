@@ -1,0 +1,44 @@
+#error404 {
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    h1 {
+      margin-bottom: 8px;
+      font-size: 200px;
+      font-weight: 600;
+    }
+    h2 {
+      margin-bottom: 8px;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 15px;
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #9a9a9a;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 40px;
+      background-color: #21d6bf;
+      background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+      font-size: 14px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      border: 1px solid transparent;
+      border-radius: 2px;
+
+      a {
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}

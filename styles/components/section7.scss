@@ -1,0 +1,65 @@
+.section7 {
+  background: #f0326b;
+
+  #section7 {
+    text-align: center;
+    overflow-y: auto;
+    overflow: hidden;
+
+    .allSlide {
+      color: #fff;
+      width: 50%;
+      .images-wrap {
+        background-color: #f0326b;
+        display: flex;
+
+        .each-slide {
+          .iconQuote {
+            font-size: 40px;
+            margin: 0 0 30px;
+          }
+
+          .description {
+            padding: 0 0 30px;
+            p {
+              margin-top: 0;
+              margin-bottom: 1rem;
+              font-size: 17px;
+              font-weight: 200;
+              padding: 0 10%;
+            }
+          }
+
+          .imgProfil {
+            img {
+              display: inline-block;
+              border-radius: 100%;
+              width: 90px;
+              height: auto;
+            }
+          }
+
+          .textProfil {
+            margin-top: 8px;
+            h4 {
+              margin-top: 0;
+              margin-bottom: 4px;
+              font-size: 1.5rem;
+              font-weight: 600;
+            }
+
+            span {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .section7 #section7 .allSlide{
+    width: 100%;
+  }
+}

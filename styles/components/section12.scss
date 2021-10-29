@@ -1,0 +1,83 @@
+.section12 {
+  .check {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .image {
+      width: 50%;
+      text-align: center;
+      padding: 0 15px;
+      img {
+        box-shadow: 0px 0px 30px -10px;
+        border-radius: 0.25rem;
+      }
+    }
+    .section12-Body {
+      width: 50%;
+      padding: 0 15px;
+      h2 {
+        font-size: 32px;
+        margin-bottom: 8px;
+      }
+      p {
+        color: #9a9a9a;
+        margin-bottom: 16px;
+      }
+      div {
+        display: flex;
+        flex-wrap: wrap;
+        color: #777;
+        div {
+          width: 50%;
+        }
+      }
+    }
+  }
+
+  #section12 {
+    background: transparent;
+    text-align: center;
+    overflow-y: auto;
+    overflow: hidden;
+    margin-top: 50px;
+    .allSlide {
+      color: #fff;
+      width: 25%;
+      .images-wrap {
+        background-color: transparent;
+        display: flex;
+        .each-slide .imgProfil img{
+          display: inline-block;
+          border-radius: 100%;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px){
+  .section12 .check{
+    .image{
+      width: 100%;
+      text-align: start;
+    }
+    .section12-Body{
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width:485px){
+  .section12 {
+    .check .image img{
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    #section12 .allSlide{
+      width: 33.333%;
+    }
+  }
+}

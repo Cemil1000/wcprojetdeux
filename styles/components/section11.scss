@@ -1,0 +1,33 @@
+#section11{
+    background-color: #f9f9f9;
+    .cards-Section11{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        .card-Section11{
+            width: 33%;
+            min-width: 250px;
+            padding: 0 15px;
+            .card-Body{
+                background-color: #f0326b;
+                color: #fff;
+                padding: 30px;
+                h3{
+                    font-size: 22px;
+                    margin: 10px 0;
+                }
+                li{
+                    font-size: 16px;
+                    margin-bottom: 6px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 517px){
+    #section11 .cards-Section11 .card-Section11{
+        width: 100%;
+    }
+}

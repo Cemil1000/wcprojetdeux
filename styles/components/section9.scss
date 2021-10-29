@@ -1,0 +1,140 @@
+#section9 {
+  background: #f9f9f9;
+
+  .allInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .divLeft-Map {
+      width: 50%;
+      padding: 0 15px;
+      .map {
+        position: relative;
+        width: 100%;
+        height: 400px;
+      }
+    }
+
+    .divRight-Form {
+      width: 50%;
+      padding: 0 15px;
+
+      .contact-Form {
+        color: #0c0c0c;
+        font-size: 14px;
+        border-radius: 3px;
+
+        .form-Control {
+          width: 100%;
+          padding: 0.6rem;
+          margin-top: 15px;
+          font-size: 1rem;
+          line-height: 1.5;
+          color: #495057;
+          background-color: #fff;
+          border: 1px solid #ced4da;
+          border-radius: 0.25rem;
+          transition: border-color ease-in-out 0.15s,
+            box-shadow ease-in-out 0.15s;
+          &:hover{
+            border: 1px solid #f0326b;
+          }
+        }
+
+        .Error {
+          border: 1px solid red;
+        }
+        .Ok {
+          border: 1px solid transparent;
+          opacity: 0.7;
+          cursor: none;
+        }
+
+        .btn-Form {
+          width: 100%;
+          border: none;
+          padding: 15px 0;
+          margin: 20px 0;
+          background: #f0326b;
+          color: #fff;
+          cursor: pointer;
+          text-transform: uppercase;
+        }
+
+        .btn-FormSending {
+          @extend .btn-Form;
+          background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+          opacity: 0.7;
+          cursor: none;
+        }
+      }
+    }
+  }
+
+  .cards-Section9 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    .card-Section9 {
+      width: 33.333%;
+      min-width: 250px;
+      padding: 0 15px;
+      margin-top: 30px;
+      text-align: center;
+      .card-Body {
+        background-color: #fff;
+        padding: 40px 0;
+        border-radius: 3px;
+        p {
+          margin-bottom: 20px;
+        }
+        h3 {
+          font-size: 24px;
+          margin-bottom: 8px;
+        }
+        ul {
+          margin-bottom: 16px;
+          li {
+            color: #9a9a9a;
+          }
+        }
+        .icons-Section9 {
+          display: flex;
+          justify-content: center;
+          padding-top: 10px;
+          height: 35.2px;
+          li {
+            margin: 0 4px;
+            a {
+              padding: 10px;
+              .icon-Section9 {
+                color: #f0326b;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 770px){
+  #section9 .allInfo{
+    max-width: 540px;
+    .divLeft-Map{
+      width: 100%;
+    }
+    .divRight-Form{
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 520px){
+  #section9 .cards-Section9 .card-Section9{
+    width: 100%;
+  }
+}

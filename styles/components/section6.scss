@@ -1,0 +1,75 @@
+#section6{
+    .cards-Section6{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card-Section6{
+            width: 33.333%;
+            min-width: 255px;
+            text-align: center;
+            padding: 0 15px;
+            .prix{
+                padding: 30px 0 20px 0;
+                background: url("../../public/img/about/about-1.jpg");
+                background-size: cover;
+                background-position: center;
+                color: #fff;
+                border-top-right-radius: 3px;
+                border-top-left-radius: 3px;
+                h3{
+                    font-size: 15px;
+                    margin-bottom: 5px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                }
+                span{
+                    font-size: 50px;
+                    padding: 10px 0;
+                }
+                p{
+                    font-size: 14px;
+                    width: 60%;
+                    margin: 0 auto;
+                }
+            }
+            .card-Body{
+                background-color: #f9f9f9;
+                margin-bottom: 15px;
+                padding-bottom: 40px;
+                ul{
+                    padding: 20px 0 10px 0;
+                    li{
+                        color: #666;
+                        font-size: 16px;
+                        padding: 10px 0;
+                    }
+                }
+                .btn-Article {
+                    a {
+                        font-size: 14px;
+                        margin-top: 10px;
+                        padding: 10px 40px;
+                        margin-top: 20px;
+                        background-color: #21d6bf;
+                        background-image: linear-gradient(100deg, #f9643d, #fe2a77);
+                        color: #fff;
+                        font-size: 14px;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                        border: 1px solid transparent;
+                        border-radius: 2px;
+                        &:hover{
+                            background-image: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #section6 .cards-Section6 .card-Section6{
+        width: 100%;
+    }
+}

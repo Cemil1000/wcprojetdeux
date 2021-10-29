@@ -1,20 +1,21 @@
 {
-  "name": "wcprojetdeux",
+  "name": "wcprojet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
-    "next": "12.0.1",
+    "bootstrap": "^4.6.0",
+    "google-maps-react": "^2.0.6",
+    "next": "^12.0.1",
+    "node-sass": "^6.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "eslint": "7.32.0",
-    "eslint-config-next": "12.0.1"
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-slideshow-image": "^3.4.6"
   }
 }
